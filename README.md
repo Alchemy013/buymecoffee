@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Sure, here's a detailed repository description for your "Buy Me a Coffee" website:
+
+---
+
+# Buy Me a Coffee ☕️
+
+A modern and intuitive platform for supporters to buy you a coffee as a token of appreciation. This project is built with Next.js, TypeScript, and MongoDB, providing a seamless user experience for both creators and supporters.
+
+## Features
+
+- **User Authentication**: Secure login with Google using NextAuth.
+- **Donations**: Supporters can buy coffee and leave messages.
+- **Dashboard**: Creators can view their supporters and messages.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **MongoDB Integration**: Stores user and donation data securely.
+
+## Tech Stack
+
+- **Framework**: Next.js
+- **Language**: TypeScript
+- **Database**: MongoDB
+- **Authentication**: NextAuth with Google Provider
+- **Styling**: Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js
+- MongoDB Atlas account
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone the repository:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   git clone https://github.com/your-username/buy-me-a-coffee.git
+   cd buy-me-a-coffee
+   ```
 
-## Learn More
+2. **Install dependencies:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   pnpm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Set up environment variables:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   Create a `.env.local` file in the root directory and add your environment variables:
 
-## Deploy on Vercel
+   ```env
+   GOOGLE_CLIENT_ID=your-google-client-id
+   GOOGLE_CLIENT_SECRET=your-google-client-secret
+   MONGODB_URI=your-mongodb-uri
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. **Run the development server:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   pnpm dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Project Structure
+
+- **`/pages`**: Contains all the pages of the application.
+- **`/components`**: Reusable components used throughout the application.
+- **`/lib`**: Library files, such as database configuration.
+- **`/styles`**: Global styles and Tailwind CSS configurations.
+- **`/api`**: API routes for handling backend logic.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/your-feature-name`
+3. Commit your changes: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, please reach out at [your-email@example.com](mailto:your-email@example.com).
+
+---
+
+Feel free to customize this description according to your specific needs and preferences.
