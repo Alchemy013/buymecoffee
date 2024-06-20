@@ -1,9 +1,9 @@
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faMugHot} from "@fortawesome/free-solid-svg-icons"
+
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
+
+import Header from './components/Header';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,20 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className='mb-16'>
-          <div className='flex justify-between max-w-xl mx-auto px-4 py-4'>
-          <Link href={'/'} className='inline-flex gap-1 items-center'>
-          <FontAwesomeIcon className="h-8" icon={faMugHot} />
-          <span className='mt-2'>buy me a coffee</span>
-          </Link>
-          <nav className='mt-2 flex gap-4'>
-            <Link href={"/about"}>About</Link>
-            <button>Login</button>
-            <button className=''>Sign Up</button>
-          </nav>
-          </div>
-          
-        </header>
+        <Header />
         {children}</body>
     </html>
   );

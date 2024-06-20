@@ -6,7 +6,7 @@ export default function Home() {
       <h2 className="mt-4 mb-8">Blehh bleh lbeh <br />
         bleh vlheasdas</h2>
       <button className="bg-yellow-300 px-8 py-4 font-bold rounded-full">Start </button>
-    "Cecking line"
+    
     </section>
   );
 }
