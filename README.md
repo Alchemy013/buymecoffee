@@ -1,5 +1,5 @@
 
-![Screenshot (28)](https://github.com/Alchemy013/buymecoffee/assets/92947939/b8bad460-f72a-4179-8dc7-ca24ce54070b)
+![image](https://github.com/Alchemy013/buymecoffee/assets/92947939/d01ceab3-9af9-466b-85ff-380761e4ab36)
 
 Sure, here's a detailed repository description for your "Buy Me a Coffee" website:
 
